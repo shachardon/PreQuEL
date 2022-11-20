@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 os.environ['TRANSFORMERS_CACHE'] = '/cs/labs/oabend/shachar.don/pre-translationQE/hg_cache'
 import sys

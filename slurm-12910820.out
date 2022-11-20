@@ -1,0 +1,5 @@
+import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/360.
+./run_model.py: line 2: os.environ[TRANSFORMERS_CACHE]: command not found
+import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/360.
+./run_model.py: line 4: syntax error near unexpected token `"/cs/labs/oabend/shachar.don/pre-translationQE/my_model/"'
+./run_model.py: line 4: `sys.path.append("/cs/labs/oabend/shachar.don/pre-translationQE/my_model/")'
