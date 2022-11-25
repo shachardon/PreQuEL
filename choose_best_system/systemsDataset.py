@@ -8,7 +8,7 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import (
     AutoTokenizer
 )
-from shared_paths import CACHE_DIR
+from shared_paths_local import CACHE_DIR
 from sklearn.model_selection import train_test_split
 
 # Set pandas display settings

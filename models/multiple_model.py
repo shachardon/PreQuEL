@@ -14,7 +14,7 @@ from transformers.models.roberta.modeling_roberta import (
 )
 import random
 from trainer import InputExample
-from shared_paths import CACHE_DIR
+from shared_paths_local import CACHE_DIR
 
 
 # Setting up the device for GPU usage

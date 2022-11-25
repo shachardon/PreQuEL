@@ -7,7 +7,7 @@ from transformers.models.roberta.modeling_roberta import (
 )
 from models.simple_model import SimpleModel
 import random
-from shared_paths import CACHE_DIR
+from shared_paths_local import CACHE_DIR
 
 # # Setting up the device for GPU usage
 from torch import cuda

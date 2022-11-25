@@ -16,7 +16,7 @@ from torch import cuda
 device = 'cuda' if cuda.is_available() else 'cpu'
 
 import random
-from shared_paths import CACHE_DIR
+from shared_paths_local import CACHE_DIR
 
 
 class ChooseModelReg(nn.Module):

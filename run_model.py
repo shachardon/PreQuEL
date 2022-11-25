@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import os
-os.environ['TRANSFORMERS_CACHE'] = '/cs/labs/oabend/shachar.don/pre-translationQE/hg_cache'
+# os.environ['TRANSFORMERS_CACHE'] = '/cs/labs/oabend/shachar.don/pre-translationQE/hg_cache'
 import sys
-sys.path.append("/cs/labs/oabend/shachar.don/pre-translationQE/my_model/")
+# sys.path.append("/cs/labs/oabend/shachar.don/pre-translationQE/my_model/")
 
 import numpy as np
 import pandas as pd
