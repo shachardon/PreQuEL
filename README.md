@@ -78,15 +78,23 @@ Note that you first need to unzip the saved models.
 # Citation
 
 ```bibtex
-@misc{https://doi.org/10.48550/arxiv.2205.09178,
-  doi = {10.48550/ARXIV.2205.09178},
-  url = {https://arxiv.org/abs/2205.09178},
-  author = {Don-Yehiya, Shachar and Choshen, Leshem and Abend, Omri},
-  keywords = {Computation and Language (cs.CL), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {PreQuEL: Quality Estimation of Machine Translation Outputs in Advance},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{don-yehiya-etal-2022-prequel,
+    title = "{P}re{Q}u{EL}: Quality Estimation of Machine Translation Outputs in Advance",
+    author = "Don-Yehiya, Shachar  and
+      Choshen, Leshem  and
+      Abend, Omri",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.767/",
+    doi = "10.18653/v1/2022.emnlp-main.767",
+    pages = "11170--11183",
+    abstract = "We present the task of PreQuEL, Pre-(Quality-Estimation) Learning. A PreQuEL system predicts how well a given sentence will be translated, without recourse to the actual translation, thus eschewing unnecessary resource allocation when translation quality is bound to be low. PreQuEL can be defined relative to a given MT system (e.g., some industry service) or generally relative to the state-of-the-art.From a theoretical perspective, PreQuEL places the focus on the source text, tracing properties, possibly linguistic features, that make a sentence harder to machine translate.We develop a baseline model for the task and analyze its performance. We also develop a data augmentation method (from parallel corpora), that improves results substantially. We show that this augmentation method can improve the performance of the Quality-Estimation task as well.We investigate the properties of the input text that our model is sensitive to, by testing it on challenge sets and different languages. We conclude that it is aware of syntactic and semantic distinctions, and correlates and even over-emphasizes the importance of standard NLP features."
 }
 ```
 
